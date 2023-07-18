@@ -1,0 +1,13 @@
+name: Main file
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  call-workflow:
+    uses: sanknoorsachin/exchange-rate-service/.github/workflows/test.yml@main
+    with:
+     secrets: inherit
