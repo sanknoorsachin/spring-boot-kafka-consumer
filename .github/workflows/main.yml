@@ -8,6 +8,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: sanknoorsachin/exchange-rate-service/.github/workflows/test.yml@94eb19dd17bd93f5b550f0911c5230e50e3bf952
+    uses: sanknoorsachin/exchange-rate-service/.github/workflows/test.yml@0f2bf94bc5a958be1e1cd6332bfcba4002122ddd
     with:
+      
      secrets: inherit
